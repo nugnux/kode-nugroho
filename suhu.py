@@ -6,11 +6,12 @@ import streamlit as st
 st.header('Nugroho :sparkles:')
 st.subheader('Plot')
 
-option = st.selectbox(
+
+x = st.number_input('suhu ',value=100)
+satuan = st.selectbox(
     'satuan',
     ('C', 'F', 'R','K'))
 
-f1 = st.number_input('f1 = ',value=1)
 
 
 st.caption('Copyright © Nugroho Adi Pramono 2023')
