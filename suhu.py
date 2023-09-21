@@ -17,7 +17,9 @@ with c2:
         ('C', 'F', 'R','K'),key='k1')
     konversi = st.selectbox(
         'Konversi',
-        ('C', 'F', 'R','K'),key='k2')
+        ('C', 'F', 'R','K'),key='k2') 
+
+st.write(x,' ',satuan,' = ',konversi)
 
 
 
