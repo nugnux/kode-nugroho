@@ -14,10 +14,10 @@ with c1:
 with c2:
     satuan = st.selectbox(
         'satuan',
-        ('C', 'F', 'R','K'))
+        ('C', 'F', 'R','K'),key='k1')
     konversi = st.selectbox(
         'satuan',
-        ('C', 'F', 'R','K'))
+        ('C', 'F', 'R','K'),key='k2')
 
 
 
